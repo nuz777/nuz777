@@ -3,7 +3,7 @@
 
 
 ###
-<div align="center">
+<div align="left">
 
 <h1 style="font-family: 'Segoe UI', sans-serif; font-size: 40px;">
    Iván Mejía
