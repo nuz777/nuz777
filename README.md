@@ -1,7 +1,6 @@
 <img src="Grabacindepantalla2026-04-012122132-Trim-ezgif.com-resize (1).gif" width="100%" />
 
-###
-<h2 align="left">Hi 👋! My name is Ivan David and I'm a junior programer </h2>
+
 
 ###
 <div align="center">
