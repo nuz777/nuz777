@@ -1,3 +1,7 @@
+<img src="<img width="636" height="288" alt="image" src="https://github.com/user-attachments/assets/e583c4dc-105d-4a8e-b439-9034afc0304e" />
+" width="100%" />
+
+###
 <h2 align="left">Hi 👋! My name is Ivan David and I'm a junior programer </h2>
 
 ###
