@@ -6,7 +6,7 @@
 <div align="center">
 
 <h1 style="font-family: 'Segoe UI', sans-serif; font-size: 40px;">
-  🚀 Iván Mejía
+   Iván Mejía
 </h1>
 
 <p style="font-family: 'Poppins', sans-serif; font-size: 18px; max-width: 600px;">
