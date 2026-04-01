@@ -4,7 +4,64 @@
 <h2 align="left">Hi 👋! My name is Ivan David and I'm a junior programer </h2>
 
 ###
+<div align="center">
 
+<h1 style="font-family: 'Segoe UI', sans-serif; font-size: 40px;">
+  🚀 Iván Mejía
+</h1>
+
+<p style="font-family: 'Poppins', sans-serif; font-size: 18px; max-width: 600px;">
+  Passionate about speed, code, and creativity. I blend the adrenaline of rally racing 
+  with the logic of programming to build unique digital experiences.
+</p>
+
+</div>
+
+<hr>
+
+<h2 style="font-family: 'Poppins', sans-serif;">🏎️ About Me</h2>
+
+<p style="font-family: 'Poppins', sans-serif; font-size: 16px;">
+  I enjoy the world of <b>rally</b>, where precision, control, and speed define everything.  
+  That same mindset drives how I approach coding—fast, efficient, and always improving.
+</p>
+
+<h2 style="font-family: 'Poppins', sans-serif;">🎮 Projects</h2>
+
+<p style="font-family: 'Poppins', sans-serif; font-size: 16px;">
+  Creator of <b>Game Finder</b>, a project focused on helping users discover games easily and efficiently.  
+  Always exploring new ideas and improving user experience.
+</p>
+
+<h2 style="font-family: 'Poppins', sans-serif;">💻 Tech Stack</h2>
+
+<p style="font-family: 'Poppins', sans-serif; font-size: 16px;">
+  Languages and tools I enjoy working with:
+</p>
+
+<ul style="font-family: 'Poppins', sans-serif; font-size: 16px;">
+  <li>Python 🐍</li>
+  <li>HTML & CSS 🌐</li>
+  <li>JavaScript ⚡</li>
+  <li>MySQL 🗄️</li>
+</ul>
+
+<h2 style="font-family: 'Poppins', sans-serif;">🩸 Anime Vibes</h2>
+
+<p style="font-family: 'Poppins', sans-serif; font-size: 16px;">
+  Fan of dark and intense anime like <b>Hellsing</b>.  
+  I like stories with powerful characters, deep atmospheres, and strong aesthetics.
+</p>
+
+<hr>
+
+<div align="center">
+
+<p style="font-family: 'Poppins', sans-serif; font-size: 14px;">
+  "Code like you drive: fast, precise, and always in control."
+</p>
+
+</div>
 
 ###
 
