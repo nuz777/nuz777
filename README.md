@@ -18,14 +18,14 @@
 
 <hr>
 
-<h2 style="font-family: 'Poppins', sans-serif;">🏎️ About Me</h2>
+<h2 style="font-family: 'Poppins', sans-serif;"> About Me</h2>
 
 <p style="font-family: 'Poppins', sans-serif; font-size: 16px;">
   I enjoy the world of <b>rally</b>, where precision, control, and speed define everything.  
   That same mindset drives how I approach coding—fast, efficient, and always improving.
 </p>
 
-<h2 style="font-family: 'Poppins', sans-serif;">🎮 Projects</h2>
+<h2 style="font-family: 'Poppins', sans-serif;"> Projects</h2>
 
 <p style="font-family: 'Poppins', sans-serif; font-size: 16px;">
   Creator of <b>Game Finder</b>, a project focused on helping users discover games easily and efficiently.  
@@ -45,7 +45,7 @@
   <li>MySQL 🗄️</li>
 </ul>
 
-<h2 style="font-family: 'Poppins', sans-serif;">🩸 Anime Vibes</h2>
+<h2 style="font-family: 'Poppins', sans-serif;"> Anime Vibes</h2>
 
 <p style="font-family: 'Poppins', sans-serif; font-size: 16px;">
   Fan of dark and intense anime like <b>Hellsing</b>.  
@@ -65,8 +65,6 @@
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
