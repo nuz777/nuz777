@@ -47,12 +47,7 @@ Always exploring new ideas and pushing user experience further.
 
 <br>
 
-| Area | Tools |
-|---|---|
-| Frontend | JavaScript, React, Vite, HTML5, CSS3 |
-| Backend | Python |
-| Database | MySQL, SQL |
-| Environment | Linux |
+
 
 ---
 
