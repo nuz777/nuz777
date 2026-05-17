@@ -86,3 +86,7 @@ the kind that leave a mark long after the credits roll.
 <div align="center">
   <i>"Code like you drive: fast, precise, and always in control."</i>
 </div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
+</p>
