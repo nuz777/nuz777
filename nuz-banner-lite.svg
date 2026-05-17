@@ -1,0 +1,101 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Iván Mejía / Nuz — Profile Banner</title>
+
+  <defs>
+    <clipPath id="clip">
+      <rect width="900" height="260" rx="14"/>
+    </clipPath>
+    <style>
+      .name1 { animation: fs 0.7s ease 0.1s both; }
+      .name2 { animation: fs 0.7s ease 0.25s both; }
+      .alias  { animation: fs 0.7s ease 0.4s both; }
+      .tag    { animation: fs 0.7s ease 0.55s both; }
+      .redbar { animation: bx 1s cubic-bezier(0.22,1,0.36,1) 0.2s both; transform-origin: left; }
+      .pill   { animation: pi 0.35s ease both; transform-box: fill-box; transform-origin: center; }
+      .p1{animation-delay:0.55s} .p2{animation-delay:0.65s} .p3{animation-delay:0.75s}
+      .p4{animation-delay:0.85s} .p5{animation-delay:0.95s} .p6{animation-delay:1.05s}
+      .p7{animation-delay:1.15s} .p8{animation-delay:1.25s} .p9{animation-delay:1.35s}
+      .p10{animation-delay:1.45s}
+      .stripe { animation: sm 8s linear infinite; }
+      .dp  { animation: dp 2.4s ease-in-out infinite; }
+      .dp2 { animation: dp 2.4s ease-in-out 0.5s infinite; }
+      .dp3 { animation: dp 2.4s ease-in-out 1s infinite; }
+
+      @keyframes fs {
+        from { opacity:0; transform:translateX(-14px); }
+        to   { opacity:1; transform:translateX(0); }
+      }
+      @keyframes bx {
+        from { transform:scaleX(0); }
+        to   { transform:scaleX(1); }
+      }
+      @keyframes pi {
+        from { opacity:0; transform:scale(0.75); }
+        to   { opacity:1; transform:scale(1); }
+      }
+      @keyframes sm {
+        from { transform:translateX(0); }
+        to   { transform:translateX(56px); }
+      }
+      @keyframes dp {
+        0%,100% { opacity:0.15; }
+        50%      { opacity:1; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+
+    <rect width="900" height="260" fill="#0e0e0e"/>
+
+    <!-- Right panel -->
+    <polygon points="620,0 900,0 900,260 720,260" fill="#141414"/>
+
+    <!-- 3 moving stripes only -->
+    <g class="stripe" opacity="0.05">
+      <line x1="580" y1="0" x2="670" y2="260" stroke="#fff" stroke-width="22"/>
+      <line x1="660" y1="0" x2="750" y2="260" stroke="#fff" stroke-width="14"/>
+      <line x1="740" y1="0" x2="830" y2="260" stroke="#fff" stroke-width="22"/>
+      <line x1="820" y1="0" x2="910" y2="260" stroke="#fff" stroke-width="14"/>
+    </g>
+
+    <!-- static divider line -->
+    <line x1="610" y1="30" x2="610" y2="230" stroke="#222" stroke-width="0.5"/>
+
+    <!-- Red accent bar -->
+    <rect x="50" y="228" width="360" height="2" rx="1" fill="#E24B4A" class="redbar"/>
+
+    <!-- Brackets -->
+    <polyline points="50,56 50,42 64,42" fill="none" stroke="#E24B4A" stroke-width="1.5" stroke-linecap="round"/>
+    <polyline points="848,204 848,218 834,218" fill="none" stroke="#E24B4A" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Name -->
+    <text class="name1" x="50" y="120" font-family="'Courier New',monospace" font-size="64" font-weight="700" fill="#f0f0f0" letter-spacing="-1">Iván</text>
+    <text class="name2" x="50" y="188" font-family="'Courier New',monospace" font-size="64" font-weight="700" fill="#f0f0f0" letter-spacing="-1">Mejía</text>
+    <text class="alias"  x="50" y="214" font-family="'Courier New',monospace" font-size="13" fill="#E24B4A" letter-spacing="4">/ NUZ</text>
+    <text class="tag"    x="50" y="244" font-family="'Courier New',monospace" font-size="10" fill="#444" letter-spacing="2">CODE FAST. DRIVE FASTER.</text>
+
+    <!-- Pulse dots -->
+    <circle cx="50"  cy="258" r="2" fill="#E24B4A" class="dp"/>
+    <circle cx="60"  cy="258" r="2" fill="#888"    class="dp2"/>
+    <circle cx="70"  cy="258" r="2" fill="#444"    class="dp3"/>
+
+    <!-- Pills col 1 -->
+    <g class="pill p1"><rect x="636" y="38"  width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="679" y="54"  text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#97C459">Python</text></g>
+    <g class="pill p2"><rect x="636" y="70"  width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="679" y="86"  text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#FAC775">JavaScript</text></g>
+    <g class="pill p3"><rect x="636" y="102" width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="679" y="118" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#AFA9EC">Vite</text></g>
+    <g class="pill p4"><rect x="636" y="134" width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="679" y="150" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#5DCAA5">React</text></g>
+    <g class="pill p5"><rect x="636" y="166" width="86" height="24" rx="4" fill="#1a1a1a" stroke="#E24B4A" stroke-width="0.8"/><text x="679" y="182" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#E24B4A">Game Finder</text></g>
+
+    <!-- Pills col 2 -->
+    <g class="pill p6"><rect x="732" y="38"  width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="775" y="54"  text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#F0997B">HTML</text></g>
+    <g class="pill p7"><rect x="732" y="70"  width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="775" y="86"  text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#AFA9EC">CSS</text></g>
+    <g class="pill p8"><rect x="732" y="102" width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="775" y="118" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#85B7EB">MySQL</text></g>
+    <g class="pill p9"><rect x="732" y="134" width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="775" y="150" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#85B7EB">SQL</text></g>
+    <g class="pill p10"><rect x="732" y="166" width="86" height="24" rx="4" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="0.5"/><text x="775" y="182" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#F0997B">Linux</text></g>
+
+    <!-- Frame -->
+    <rect x="1" y="1" width="898" height="258" rx="13" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+
+  </g>
+</svg>
