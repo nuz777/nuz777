@@ -1,4 +1,4 @@
-<img src="nuz-banner.svg" width="100%"/>
+<img src="nuz-banner-lite.svg" width="100%"/>
 <div align="left">
   <h1>Iván Mejía / Nuz</h1>
   <p style="font-size: 18px; max-width: 650px;">
