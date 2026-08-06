@@ -17,14 +17,6 @@ I thrive on challenges that demand sharp thinking and clean execution, whether b
 
 ---
 
-## Projects
-
-**Game Finder** — A project focused on helping users discover games easily and efficiently.
-Built with a clean UI and a fast backend to deliver a smooth experience from search to result.
-Always exploring new ideas and pushing user experience further.
-
----
-
 ## Tech Stack
 
 <p align="center">
