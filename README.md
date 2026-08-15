@@ -41,14 +41,6 @@ I thrive on challenges that demand sharp thinking and clean execution, whether b
 
 ---
 
-## Anime Vibes
-
-Fan of dark and intense anime like **Hellsing**.
-I gravitate toward stories with powerful characters, heavy atmosphere, and uncompromising aesthetics —
-the kind that leave a mark long after the credits roll.
-
----
-
 ## Connect
 
 <div align="left">
