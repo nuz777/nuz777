@@ -1,6 +1,6 @@
 <img src="nuz-banner-lite(1).svg" width="100%"/>
 <div align="left">
-  <h1>Iván Mejía / Nuz</h1>
+  <h1>Iván Mejía (Nuz777)</h1>
   <p style="font-size: 18px; max-width: 650px;">
     Passionate about speed, code, and creativity. I blend the adrenaline of rally racing
     with the logic of programming to build unique digital experiences.
