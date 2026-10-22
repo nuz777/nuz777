@@ -2,8 +2,7 @@
 <div align="left">
   <h1>Iván Mejía (Nuz777)</h1>
   <p style="font-size: 18px; max-width: 650px;">
-    Passionate about speed, code, and creativity. I blend the adrenaline of rally racing
-    with the logic of programming to build unique digital experiences.
+    I consider myself a responsible, kind, and calm person. I really enjoy programming; I like seeing that what I can do can be useful to many people, and I very rarely give up.
   </p>
 </div>
 
