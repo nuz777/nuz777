@@ -11,9 +11,11 @@
 
 ## About Me
 
-I enjoy the world of **rally**, where precision, control, and speed define everything.
-That same mindset drives how I approach coding — fast, efficient, and always improving.
-I thrive on challenges that demand sharp thinking and clean execution, whether behind a wheel or a keyboard.
+Ever since I was a child, I've been fascinated by the world of rally racing, where precision, control, and speed define everything.
+That same mindset guides my approach to programming: fast, efficient, and always striving for improvement despite my mistakes.
+I'm motivated by challenges that demand mental sharpness and flawless execution, whether behind the wheel or in front of my laptop.
+
+
 
 ---
 
@@ -61,7 +63,7 @@ I thrive on challenges that demand sharp thinking and clean execution, whether b
 <hr>
 
 <div align="center">
-  <i>"Code like you drive: fast, precise, and always in control."</i>
+  <i>"Nothing is impossible if you see that you're not truly tired yet."</i>
 </div>
 
 <p align="center">
