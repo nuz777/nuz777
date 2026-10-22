@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Iván Mejía (Nuz777) - Full-stack developer. Simple, functional code. Rally and code.">
+  <defs><clipPath id="clip"><rect width="1200" height="340" rx="14"/></clipPath></defs>
+  <style>
+    text { font-family: 'SFMono-Regular', ui-monospace, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace; }
+    .rise { animation: rise .8s cubic-bezier(.2,.8,.2,1) both; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .4s; }
+    .d4 { animation-delay: .55s; } .d5 { animation-delay: .7s; } .d6 { animation-delay: .85s; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    .road { animation: road 1.1s linear infinite; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    .float { animation: float 5s ease-in-out infinite; }
+    .front { opacity: 1; animation: flipF 9s ease-in-out infinite; }
+    .back { opacity: 0; animation: flipB 9s ease-in-out infinite; }
+    .spin { animation: spin 26s linear infinite; }
+    .spinr { animation: spin 18s linear infinite reverse; }
+    .tw { transform-box: fill-box; transform-origin: center; animation: twinkle 2.8s ease-in-out infinite; }
+    .fall { animation: fall linear infinite; }
+    .light { opacity: 0; animation: theme 16s ease-in-out infinite; }
+    @keyframes theme {
+      0%, 40.625% { opacity: 0; }
+      46.875%, 90.625% { opacity: 1; }
+      96.875%, 100% { opacity: 0; }
+    }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 0%, 49% { fill-opacity: 1; } 50%, 100% { fill-opacity: 0; } }
+    @keyframes road { to { stroke-dashoffset: -84; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+    @keyframes float {
+      0%, 100% { transform: translateY(-7px) rotate(-2deg); }
+      50% { transform: translateY(7px) rotate(2deg); }
+    }
+    @keyframes flipF {
+      0% { transform: scaleX(1); } 38% { transform: scaleX(1); } 44% { transform: scaleX(0); }
+      94% { transform: scaleX(0); } 100% { transform: scaleX(1); }
+    }
+    @keyframes flipB {
+      0%, 43.9% { transform: scaleX(0); opacity: 0; }
+      44% { transform: scaleX(0); opacity: 1; }
+      50%, 88% { transform: scaleX(1); opacity: 1; }
+      94% { transform: scaleX(0); opacity: 1; }
+      94.1%, 100% { transform: scaleX(0); opacity: 0; }
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.25; transform: scale(0.6); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes fall {
+      0% { transform: translate(0, 0) rotate(0deg); opacity: 0; }
+      10% { opacity: 1; } 90% { opacity: 1; }
+      100% { transform: translate(-110px, 300px) rotate(320deg); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .cursor, .road, .pulse, .float, .front, .back, .spin, .spinr, .tw, .fall { animation: none; }
+      .back { opacity: 0; }
+      .light { animation: none; opacity: 0; }
+    }
+  </style>
+
+  <g class="" clip-path="url(#clip)">
+    <defs>
+      <linearGradient id="bg-dark" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0f0c05"/><stop offset="1" stop-color="#201808"/>
+      </linearGradient>
+      <radialGradient id="glow-dark" cx="985" cy="160" r="270" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#facc15" stop-opacity="0.22"/>
+        <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="cardg-dark" x1="0" y1="0" x2="0.4" y2="1">
+        <stop offset="0" stop-color="#2a2008"/><stop offset="1" stop-color="#4d3b0a"/>
+      </linearGradient>
+      <linearGradient id="bord-dark" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#facc15"/><stop offset="1" stop-color="#f59e0b"/>
+      </linearGradient>
+      <pattern id="lat-dark" width="16" height="16" patternUnits="userSpaceOnUse">
+        <path d="M8 0 L16 8 L8 16 L0 8 Z" fill="none" stroke="#facc15" stroke-width="0.8" opacity="0.4"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="340" fill="url(#bg-dark)"/>
+    <rect class="pulse" width="1200" height="340" fill="url(#glow-dark)"/>
+
+    <g transform="translate(150 10) scale(1.0)"><g class="fall" style="animation-duration:11s;animation-delay:-2s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(330 30) scale(0.8)"><g class="fall" style="animation-duration:13s;animation-delay:-7s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(520 0) scale(1.2)"><g class="fall" style="animation-duration:12s;animation-delay:-4s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(700 20) scale(0.9)"><g class="fall" style="animation-duration:14s;animation-delay:-9s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(800 5) scale(1.1)"><g class="fall" style="animation-duration:10s;animation-delay:-1s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(1100 0) scale(1.0)"><g class="fall" style="animation-duration:12s;animation-delay:-6s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(1170 40) scale(0.8)"><g class="fall" style="animation-duration:15s;animation-delay:-11s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(430 60) scale(0.7)"><g class="fall" style="animation-duration:16s;animation-delay:-13s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(930 30) scale(0.9)"><g class="fall" style="animation-duration:13s;animation-delay:-3s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g><g transform="translate(60 80) scale(0.8)"><g class="fall" style="animation-duration:14s;animation-delay:-8s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.55"/></g></g>
+    <path class="tw" style="animation-delay:0.0s" d="M878 53 Q878 62 887 62 Q878 62 878 71 Q878 62 869 62 Q878 62 878 53 Z" fill="#fde68a"/><path class="tw" style="animation-delay:0.8s" d="M1086 67 Q1086 74 1093 74 Q1086 74 1086 81 Q1086 74 1079 74 Q1086 74 1086 67 Z" fill="#fde68a"/><path class="tw" style="animation-delay:1.5s" d="M896 245 Q896 252 903 252 Q896 252 896 259 Q896 252 889 252 Q896 252 896 245 Z" fill="#fde68a"/><path class="tw" style="animation-delay:0.4s" d="M1092 228 Q1092 238 1102 238 Q1092 238 1092 248 Q1092 238 1082 238 Q1092 238 1092 228 Z" fill="#fde68a"/><path class="tw" style="animation-delay:1.1s" d="M1048 23 Q1048 28 1053 28 Q1048 28 1048 33 Q1048 28 1043 28 Q1048 28 1048 23 Z" fill="#fde68a"/><path class="tw" style="animation-delay:1.9s" d="M924 133 Q924 138 929 138 Q924 138 924 143 Q924 138 919 138 Q924 138 924 133 Z" fill="#fde68a"/><path class="tw" style="animation-delay:0.2s" d="M1104 155 Q1104 160 1109 160 Q1104 160 1104 165 Q1104 160 1099 160 Q1104 160 1104 155 Z" fill="#fde68a"/>
+
+    <g>
+      <text class="rise d1" x="60" y="62" font-size="14" letter-spacing="4" fill="#facc15">// FULL-STACK DEVELOPER<tspan class="cursor" dx="4">_</tspan></text>
+      <text class="rise d2" x="58" y="142" font-size="78" font-weight="700" fill="#fefce8">Iván Mejía<tspan dx="26" font-size="22" font-weight="400" letter-spacing="3" fill="#facc15">/ NUZ777</tspan></text>
+      <text class="rise d3" x="60" y="184" font-size="17" fill="#b8ac8a">I write simple, functional code — something that works and is useful.</text>
+      <g font-size="13">
+        <text class="rise d4" x="60" y="228" letter-spacing="3" fill="#facc15">BACKEND</text>
+        <text class="rise d4" x="170" y="228" font-size="15" fill="#f3ead0">C# · .NET · Python · Node.js · PHP</text>
+        <text class="rise d5" x="60" y="256" letter-spacing="3" fill="#facc15">FRONTEND</text>
+        <text class="rise d5" x="170" y="256" font-size="15" fill="#f3ead0">React · Next.js · Angular · TypeScript · Tailwind</text>
+        <text class="rise d6" x="60" y="284" letter-spacing="3" fill="#facc15">DEVOPS</text>
+        <text class="rise d6" x="170" y="284" font-size="15" fill="#f3ead0">Docker · Azure · Linux · PostgreSQL</text>
+      </g>
+    </g>
+
+    <g transform="translate(985 160)">
+      <g class="float">
+        <g class="front">
+          <rect x="-75" y="-110" width="150" height="220" rx="14" fill="url(#cardg-dark)" stroke="url(#bord-dark)" stroke-width="3"/>
+          <rect x="-65" y="-100" width="130" height="200" rx="8" fill="none" stroke="#facc15" stroke-width="1" opacity="0.55"/>
+          <text x="0" y="-78" text-anchor="middle" font-size="11" letter-spacing="6" fill="#fde68a">NUZ</text>
+          <g transform="translate(0 -6)">
+            <g class="spin"><circle r="57" fill="none" stroke="#facc15" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/></g>
+            <g class="spinr"><circle r="47" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="10 6" opacity="0.8"/></g>
+            <circle r="38" fill="#facc15" fill-opacity="0.12" stroke="#facc15" stroke-width="1.5"/>
+            <g fill="none" stroke="#facc15" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M-12 -15 L-27 0 L-12 15"/>
+              <path d="M12 -15 L27 0 L12 15"/>
+              <path d="M4 -20 L-4 20"/>
+            </g>
+          </g>
+          <path class="tw" style="animation-delay:0.1s" d="M-50 -67 Q-50 -62 -45 -62 Q-50 -62 -50 -57 Q-50 -62 -55 -62 Q-50 -62 -50 -67 Z" fill="#fde68a"/><path class="tw" style="animation-delay:0.9s" d="M52 -38 Q52 -34 56 -34 Q52 -34 52 -30 Q52 -34 48 -34 Q52 -34 52 -38 Z" fill="#fde68a"/><path class="tw" style="animation-delay:1.4s" d="M-50 32 Q-50 36 -46 36 Q-50 36 -50 40 Q-50 36 -54 36 Q-50 36 -50 32 Z" fill="#fde68a"/><path class="tw" style="animation-delay:0.5s" d="M50 49 Q50 54 55 54 Q50 54 50 59 Q50 54 45 54 Q50 54 50 49 Z" fill="#fde68a"/>
+          <path d="M-40 70 H-6 M6 70 H40" stroke="#facc15" stroke-width="1" opacity="0.7"/>
+          <path d="M0 65 L5 70 L0 75 L-5 70 Z" fill="#facc15"/>
+          <text x="0" y="90" text-anchor="middle" font-size="10" letter-spacing="4" fill="#fde68a">DEVELOPER</text>
+        </g>
+        <g class="back">
+          <rect x="-75" y="-110" width="150" height="220" rx="14" fill="url(#cardg-dark)" stroke="url(#bord-dark)" stroke-width="3"/>
+          <rect x="-65" y="-100" width="130" height="200" rx="8" fill="url(#lat-dark)" stroke="#facc15" stroke-width="1" opacity="0.9"/>
+          <circle r="42" fill="#2a2008" stroke="#facc15" stroke-width="2"/>
+          <g class="spin"><circle r="35" fill="none" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="6 5"/></g>
+          <text x="0" y="0" dy="0.35em" text-anchor="middle" font-size="26" font-weight="700" fill="#facc15">{ }</text>
+          <path class="tw" style="animation-delay:0.2s" d="M-52 -90 Q-52 -84 -46 -84 Q-52 -84 -52 -78 Q-52 -84 -58 -84 Q-52 -84 -52 -90 Z" fill="#fde68a"/><path class="tw" style="animation-delay:1.0s" d="M52 -90 Q52 -84 58 -84 Q52 -84 52 -78 Q52 -84 46 -84 Q52 -84 52 -90 Z" fill="#fde68a"/><path class="tw" style="animation-delay:1.5s" d="M-52 78 Q-52 84 -46 84 Q-52 84 -52 90 Q-52 84 -58 84 Q-52 84 -52 78 Z" fill="#fde68a"/><path class="tw" style="animation-delay:0.6s" d="M52 78 Q52 84 58 84 Q52 84 52 90 Q52 84 46 84 Q52 84 52 78 Z" fill="#fde68a"/>
+        </g>
+      </g>
+    </g>
+    <text x="985" y="302" text-anchor="middle" font-size="12" letter-spacing="5" fill="#948960">RALLY × CODE</text>
+
+    <line x1="0" y1="318" x2="1200" y2="318" stroke="#2b2410" stroke-width="2"/>
+    <line class="road" x1="0" y1="318" x2="1200" y2="318" stroke="#facc15" stroke-width="2" stroke-dasharray="24 18"/>
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="14" fill="none" stroke="#2e2812"/>
+  </g>
+
+  <g class="light" clip-path="url(#clip)">
+    <defs>
+      <linearGradient id="bg-light" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#fffdf5"/><stop offset="1" stop-color="#fdf0c0"/>
+      </linearGradient>
+      <radialGradient id="glow-light" cx="985" cy="160" r="270" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#facc15" stop-opacity="0.24"/>
+        <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="cardg-light" x1="0" y1="0" x2="0.4" y2="1">
+        <stop offset="0" stop-color="#fffdf0"/><stop offset="1" stop-color="#fde68a"/>
+      </linearGradient>
+      <linearGradient id="bord-light" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#a16207"/><stop offset="1" stop-color="#eab308"/>
+      </linearGradient>
+      <pattern id="lat-light" width="16" height="16" patternUnits="userSpaceOnUse">
+        <path d="M8 0 L16 8 L8 16 L0 8 Z" fill="none" stroke="#a16207" stroke-width="0.8" opacity="0.4"/>
+      </pattern>
+    </defs>
+    <rect width="1200" height="340" fill="url(#bg-light)"/>
+    <rect class="pulse" width="1200" height="340" fill="url(#glow-light)"/>
+
+    <g transform="translate(150 10) scale(1.0)"><g class="fall" style="animation-duration:11s;animation-delay:-2s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(330 30) scale(0.8)"><g class="fall" style="animation-duration:13s;animation-delay:-7s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(520 0) scale(1.2)"><g class="fall" style="animation-duration:12s;animation-delay:-4s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(700 20) scale(0.9)"><g class="fall" style="animation-duration:14s;animation-delay:-9s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(800 5) scale(1.1)"><g class="fall" style="animation-duration:10s;animation-delay:-1s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(1100 0) scale(1.0)"><g class="fall" style="animation-duration:12s;animation-delay:-6s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(1170 40) scale(0.8)"><g class="fall" style="animation-duration:15s;animation-delay:-11s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(430 60) scale(0.7)"><g class="fall" style="animation-duration:16s;animation-delay:-13s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(930 30) scale(0.9)"><g class="fall" style="animation-duration:13s;animation-delay:-3s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g><g transform="translate(60 80) scale(0.8)"><g class="fall" style="animation-duration:14s;animation-delay:-8s"><path d="M0 -8 C-1 -11 -5 -11 -5.5 -6 C-6 0 -2.5 7 0 12 C2.5 7 6 0 5.5 -6 C5 -11 1 -11 0 -8 Z" fill="#fde047" opacity="0.9"/></g></g>
+    <path class="tw" style="animation-delay:0.0s" d="M878 53 Q878 62 887 62 Q878 62 878 71 Q878 62 869 62 Q878 62 878 53 Z" fill="#eab308"/><path class="tw" style="animation-delay:0.8s" d="M1086 67 Q1086 74 1093 74 Q1086 74 1086 81 Q1086 74 1079 74 Q1086 74 1086 67 Z" fill="#eab308"/><path class="tw" style="animation-delay:1.5s" d="M896 245 Q896 252 903 252 Q896 252 896 259 Q896 252 889 252 Q896 252 896 245 Z" fill="#eab308"/><path class="tw" style="animation-delay:0.4s" d="M1092 228 Q1092 238 1102 238 Q1092 238 1092 248 Q1092 238 1082 238 Q1092 238 1092 228 Z" fill="#eab308"/><path class="tw" style="animation-delay:1.1s" d="M1048 23 Q1048 28 1053 28 Q1048 28 1048 33 Q1048 28 1043 28 Q1048 28 1048 23 Z" fill="#eab308"/><path class="tw" style="animation-delay:1.9s" d="M924 133 Q924 138 929 138 Q924 138 924 143 Q924 138 919 138 Q924 138 924 133 Z" fill="#eab308"/><path class="tw" style="animation-delay:0.2s" d="M1104 155 Q1104 160 1109 160 Q1104 160 1104 165 Q1104 160 1099 160 Q1104 160 1104 155 Z" fill="#eab308"/>
+
+    <g>
+      <text class="rise d1" x="60" y="62" font-size="14" letter-spacing="4" fill="#a16207">// FULL-STACK DEVELOPER<tspan class="cursor" dx="4">_</tspan></text>
+      <text class="rise d2" x="58" y="142" font-size="78" font-weight="700" fill="#1c1704">Iván Mejía<tspan dx="26" font-size="22" font-weight="400" letter-spacing="3" fill="#a16207">/ NUZ777</tspan></text>
+      <text class="rise d3" x="60" y="184" font-size="17" fill="#6b6240">I write simple, functional code — something that works and is useful.</text>
+      <g font-size="13">
+        <text class="rise d4" x="60" y="228" letter-spacing="3" fill="#a16207">BACKEND</text>
+        <text class="rise d4" x="170" y="228" font-size="15" fill="#3a3213">C# · .NET · Python · Node.js · PHP</text>
+        <text class="rise d5" x="60" y="256" letter-spacing="3" fill="#a16207">FRONTEND</text>
+        <text class="rise d5" x="170" y="256" font-size="15" fill="#3a3213">React · Next.js · Angular · TypeScript · Tailwind</text>
+        <text class="rise d6" x="60" y="284" letter-spacing="3" fill="#a16207">DEVOPS</text>
+        <text class="rise d6" x="170" y="284" font-size="15" fill="#3a3213">Docker · Azure · Linux · PostgreSQL</text>
+      </g>
+    </g>
+
+    <g transform="translate(985 160)">
+      <g class="float">
+        <g class="front">
+          <rect x="-75" y="-110" width="150" height="220" rx="14" fill="url(#cardg-light)" stroke="url(#bord-light)" stroke-width="3"/>
+          <rect x="-65" y="-100" width="130" height="200" rx="8" fill="none" stroke="#a16207" stroke-width="1" opacity="0.55"/>
+          <text x="0" y="-78" text-anchor="middle" font-size="11" letter-spacing="6" fill="#854d0e">NUZ</text>
+          <g transform="translate(0 -6)">
+            <g class="spin"><circle r="57" fill="none" stroke="#a16207" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/></g>
+            <g class="spinr"><circle r="47" fill="none" stroke="#eab308" stroke-width="1.5" stroke-dasharray="10 6" opacity="0.8"/></g>
+            <circle r="38" fill="#a16207" fill-opacity="0.12" stroke="#a16207" stroke-width="1.5"/>
+            <g fill="none" stroke="#a16207" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M-12 -15 L-27 0 L-12 15"/>
+              <path d="M12 -15 L27 0 L12 15"/>
+              <path d="M4 -20 L-4 20"/>
+            </g>
+          </g>
+          <path class="tw" style="animation-delay:0.1s" d="M-50 -67 Q-50 -62 -45 -62 Q-50 -62 -50 -57 Q-50 -62 -55 -62 Q-50 -62 -50 -67 Z" fill="#eab308"/><path class="tw" style="animation-delay:0.9s" d="M52 -38 Q52 -34 56 -34 Q52 -34 52 -30 Q52 -34 48 -34 Q52 -34 52 -38 Z" fill="#eab308"/><path class="tw" style="animation-delay:1.4s" d="M-50 32 Q-50 36 -46 36 Q-50 36 -50 40 Q-50 36 -54 36 Q-50 36 -50 32 Z" fill="#eab308"/><path class="tw" style="animation-delay:0.5s" d="M50 49 Q50 54 55 54 Q50 54 50 59 Q50 54 45 54 Q50 54 50 49 Z" fill="#eab308"/>
+          <path d="M-40 70 H-6 M6 70 H40" stroke="#a16207" stroke-width="1" opacity="0.7"/>
+          <path d="M0 65 L5 70 L0 75 L-5 70 Z" fill="#a16207"/>
+          <text x="0" y="90" text-anchor="middle" font-size="10" letter-spacing="4" fill="#854d0e">DEVELOPER</text>
+        </g>
+        <g class="back">
+          <rect x="-75" y="-110" width="150" height="220" rx="14" fill="url(#cardg-light)" stroke="url(#bord-light)" stroke-width="3"/>
+          <rect x="-65" y="-100" width="130" height="200" rx="8" fill="url(#lat-light)" stroke="#a16207" stroke-width="1" opacity="0.9"/>
+          <circle r="42" fill="#fffdf0" stroke="#a16207" stroke-width="2"/>
+          <g class="spin"><circle r="35" fill="none" stroke="#eab308" stroke-width="1.5" stroke-dasharray="6 5"/></g>
+          <text x="0" y="0" dy="0.35em" text-anchor="middle" font-size="26" font-weight="700" fill="#a16207">{ }</text>
+          <path class="tw" style="animation-delay:0.2s" d="M-52 -90 Q-52 -84 -46 -84 Q-52 -84 -52 -78 Q-52 -84 -58 -84 Q-52 -84 -52 -90 Z" fill="#eab308"/><path class="tw" style="animation-delay:1.0s" d="M52 -90 Q52 -84 58 -84 Q52 -84 52 -78 Q52 -84 46 -84 Q52 -84 52 -90 Z" fill="#eab308"/><path class="tw" style="animation-delay:1.5s" d="M-52 78 Q-52 84 -46 84 Q-52 84 -52 90 Q-52 84 -58 84 Q-52 84 -52 78 Z" fill="#eab308"/><path class="tw" style="animation-delay:0.6s" d="M52 78 Q52 84 58 84 Q52 84 52 90 Q52 84 46 84 Q52 84 52 78 Z" fill="#eab308"/>
+        </g>
+      </g>
+    </g>
+    <text x="985" y="302" text-anchor="middle" font-size="12" letter-spacing="5" fill="#8a7f55">RALLY × CODE</text>
+
+    <line x1="0" y1="318" x2="1200" y2="318" stroke="#f0e3a8" stroke-width="2"/>
+    <line class="road" x1="0" y1="318" x2="1200" y2="318" stroke="#a16207" stroke-width="2" stroke-dasharray="24 18"/>
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="14" fill="none" stroke="#efe0a0"/>
+  </g>
+</svg>
