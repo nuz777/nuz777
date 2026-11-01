@@ -53,9 +53,7 @@ I'm motivated by challenges that demand mental sharpness and flawless execution,
   <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Nuz777's Productive Time" width="48%"/>
 </p>
 
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Nuz777's GitHub Stats" width="60%"/>
-</p>
+
 
 <br>
 
