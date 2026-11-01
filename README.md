@@ -49,11 +49,12 @@ I'm motivated by challenges that demand mental sharpness and flawless execution,
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nuz777&layout=compact&theme=github_dark&hide_border=true" alt="Nuz777's Top Languages"/>
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Nuz777's Top Languages" width="48%"/>
+  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Nuz777's Productive Time" width="48%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nuz777&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="activity-graph"/>
+  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Nuz777's GitHub Stats" width="60%"/>
 </p>
 
 <br>
