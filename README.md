@@ -18,7 +18,7 @@ I consider myself a **responsible, kind, and calm** person. I really enjoy progr
 
 <br>
 
-## 🏁 About Me
+## About Me
 
 Ever since I was a child, I've been fascinated by the world of **rally racing**, where precision, control, and speed define everything. That same mindset guides my approach to programming: fast, efficient, and always striving for improvement despite my mistakes.
 
@@ -26,7 +26,7 @@ I'm motivated by challenges that demand mental sharpness and flawless execution,
 
 <br>
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <div align="center">
 
