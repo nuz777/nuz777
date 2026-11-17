@@ -18,26 +18,30 @@ I'm motivated by challenges that demand mental sharpness and flawless execution,
 
 ---
 
-## Tech Stack
+###  Tech Stack & Tools
 
-<p align="center">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=cs,dotnet,python,nodejs,react,nextjs,ts,js&perline=8" alt="Core Technologies"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=azure,docker,ubuntu,linux,git,github,postgres,mysql&perline=8" alt="DevOps and Databases"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://skillicons.dev" target="_blank">
-    <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,php,laravel,mongodb,sqlite&perline=8" alt="Frontend and Others"/>
+#### **Backend & Databases**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,nodejs,express,nestjs,postgres,mysql,mongodb" alt="Backend Technologies" />
   </a>
 </p>
 
-<br>
+#### **Frontend**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=angular,react,ts,js,html,css,tailwind,bootstrap" alt="Frontend Technologies" />
+  </a>
+</p>
 
+#### **DevOps, Tools & Environments**
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,git,github,linux,ubuntu,nginx,postman" alt="Tools & Environments" />
+  </a>
+</p>
+
+---
 
 
 ---
